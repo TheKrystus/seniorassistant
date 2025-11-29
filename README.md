@@ -1,46 +1,71 @@
 # Senior Assistant
 
-## O Projekcie
+Intuicyjna aplikacja webowa zaprojektowana specjalnie z myślą o seniorach. Łączy nowoczesną technologię z prostotą obsługi, aby każdy mógł cieszyć się cyfrowym światem bez barier.
 
-**Senior Assistant** to aplikacja zaprojektowana w celu zapewnienia codziennego wsparcia osobom starszym. System pomaga w codziennych czynnościach, podstawowej opiece oraz zadaniach domowych.
+## 🚀 Technologie
 
-## Główne Funkcje
+- **Vite** - szybkie środowisko deweloperskie
+- **Vanilla JavaScript** - czysty JavaScript bez frameworków
+- **Lucide Icons** - nowoczesna biblioteka ikon SVG
+- **CSS3** - nowoczesne style z obsługą motywów jasnego/ciemnego
 
-### 🏠 Wsparcie w Codziennych Czynnościach
-- Pomoc w organizacji codziennych rutyn
-- Przypomnienia o ważnych zadaniach i terminach
-- Asystowanie przy podstawowych obowiązkach domowych
+## 📦 Instalacja
 
-### 💊 Podstawowa Opieka
-- Monitorowanie samopoczucia
-- Przypomnienia o przyjmowaniu leków
-- Śledzenie wizyt lekarskich
+1. Sklonuj repozytorium:
+   ```bash
+   git clone https://github.com/TheKrystus/seniorassistant.git
+   cd seniorassistant
+   ```
 
-### 🤝 Towarzystwo
-- Zapewnienie kontaktu i rozmowy
-- Wsparcie emocjonalne
-- Łączenie z rodziną i bliskimi
+2. Zainstaluj zależności:
+   ```bash
+   npm install
+   ```
 
-### 🛡️ Bezpieczeństwo i Komfort
-- Monitorowanie bezpieczeństwa w domu
-- Zapewnienie komfortowego środowiska
-- Szanowanie prywatności i godności użytkownika
+3. Uruchom serwer deweloperski:
+   ```bash
+   npm run dev
+   ```
 
-## Misja
+4. Otwórz przeglądarkę pod adresem wyświetlonym w terminalu (domyślnie `http://localhost:5173`)
 
-Naszą misją jest zapewnienie osobom starszym:
-- **Bezpiecznego** środowiska życia
-- **Komfortowej** codzienności
-- **Pełnego szacunku** traktowania
-- **Wsparcia** w zachowaniu niezależności
+## 🛠️ Dostępne skrypty
 
-## Wartości
+| Polecenie | Opis |
+|-----------|------|
+| `npm run dev` | Uruchamia serwer deweloperski z hot-reload |
+| `npm run build` | Buduje wersję produkcyjną do folderu `dist/` |
+| `npm run preview` | Podgląd zbudowanej wersji produkcyjnej |
 
-- 💙 **Empatia** - rozumiemy potrzeby seniorów
-- 🤲 **Troska** - dbamy o każdy aspekt życia codziennego
-- 🏆 **Godność** - szanujemy autonomię i prywatność
-- 🔒 **Bezpieczeństwo** - priorytetem jest zdrowie i bezpieczeństwo
+## 🎨 Funkcje
+
+- **Responsywny design** - działa na komputerach, tabletach i telefonach
+- **Przełącznik motywów** - jasny/ciemny motyw z zapamiętywaniem preferencji
+- **Płynne przewijanie** - nawigacja z animacjami
+- **Dostępność** - zaprojektowana z myślą o czytelności i łatwości obsługi
+
+## 📁 Struktura projektu
+
+```
+seniorassistant/
+├── public/
+│   └── imgs/           # Obrazy statyczne
+├── src/
+│   ├── main.js         # Główny plik JavaScript
+│   ├── style.css       # Style CSS
+│   └── theme.js        # Logika przełączania motywów
+├── index.html          # Główny plik HTML
+└── package.json        # Konfiguracja projektu
+```
+
+## 📄 Licencja
+
+Projekt prywatny.
+
+## 👤 Autor
+
+**TheKrystus**
 
 ---
 
-*Projekt Senior Assistant - dla lepszej jakości życia osób starszych.*
+*Twój Osobisty Asystent Cyfrowy*
